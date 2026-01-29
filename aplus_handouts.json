@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "data": [
+    {
+      "title": "Cell Structure",
+      "description": "Chapter 1 Guide",
+      "subject": "Biology",
+      "pdfUrl": "https://example.com/cell.pdf"
+    }
+  ]
+}
