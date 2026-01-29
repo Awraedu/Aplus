@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "data": [
+    {
+      "type": "MC",
+      "questionText": "What is the powerhouse of the cell?",
+      "subject": "Biology",
+      "chapter": "1",
+      "imageUrl": null,
+      "explanation": "Mitochondria generate ATP.",
+      "options": ["Nucleus", "Ribosome", "Mitochondrion", "Wall"],
+      "correctAnswer": "2" 
+    },
+    {
+      "type": "TF",
+      "questionText": "Fire is hot.",
+      "subject": "Physics",
+      "chapter": "1",
+      "explanation": "Combustion releases heat.",
+      "correctAnswer": "true"
+    }
+  ]
+}
