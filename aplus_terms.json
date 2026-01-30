@@ -1,6 +1,606 @@
 {
-  "version": 1,
+  "version": 2,
   "data": [
-    { "word": "Atom", "definition": "Basic unit of matter", "subject": "Chemistry", "chapter": "1" }
+    { "word": "Atom", "definition": "Basic unit of matter", "subject": "Chemistry", "chapter": "1" },
+    {
+      "word": "Mitosis",
+      "definition": "A type of cell division that results in two daughter cells each having the same number and kind of chromosomes as the parent nucleus.",
+      "subject": "Biology",
+      "chapter": "Cell Reproduction"
+    },
+    {
+      "word": "Photosynthesis",
+      "definition": "The process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water.",
+      "subject": "Biology",
+      "chapter": "Plant Biology"
+    },
+    {
+      "word": "Homeostasis",
+      "definition": "The tendency toward a relatively stable equilibrium between interdependent elements, especially as maintained by physiological processes.",
+      "subject": "Biology",
+      "chapter": "Physiology"
+    },
+    {
+      "word": "Allele",
+      "definition": "One of two or more alternative forms of a gene that arise by mutation and are found at the same place on a chromosome.",
+      "subject": "Biology",
+      "chapter": "Genetics"
+    },
+    {
+      "word": "Osmosis",
+      "definition": "A process by which molecules of a solvent pass through a semipermeable membrane from a less concentrated solution into a more concentrated one.",
+      "subject": "Biology",
+      "chapter": "Cell Transport"
+    },
+    {
+      "word": "Ribosome",
+      "definition": "A minute particle consisting of RNA and associated proteins found in large numbers in the cytoplasm of living cells.",
+      "subject": "Biology",
+      "chapter": "Cell Structure"
+    },
+    {
+      "word": "Enzyme",
+      "definition": "A substance produced by a living organism which acts as a catalyst to bring about a specific biochemical reaction.",
+      "subject": "Biology",
+      "chapter": "Biochemistry"
+    },
+    {
+      "word": "Ecosystem",
+      "definition": "A biological community of interacting organisms and their physical environment.",
+      "subject": "Biology",
+      "chapter": "Ecology"
+    },
+    {
+      "word": "Phenotype",
+      "definition": "The set of observable characteristics of an individual resulting from the interaction of its genotype with the environment.",
+      "subject": "Biology",
+      "chapter": "Genetics"
+    },
+    {
+      "word": "Natural Selection",
+      "definition": "The process whereby organisms better adapted to their environment tend to survive and produce more offspring.",
+      "subject": "Biology",
+      "chapter": "Evolution"
+    },
+    {
+      "word": "Zygote",
+      "definition": "A diploid cell resulting from the fusion of two haploid gametes; a fertilized ovum.",
+      "subject": "Biology",
+      "chapter": "Reproduction"
+    },
+    {
+      "word": "Acceleration",
+      "definition": "The rate of change of velocity per unit of time.",
+      "subject": "Physics",
+      "chapter": "Kinematics"
+    },
+    {
+      "word": "Kinetic Energy",
+      "definition": "Energy which a body possesses by virtue of being in motion.",
+      "subject": "Physics",
+      "chapter": "Energy and Work"
+    },
+    {
+      "word": "Refraction",
+      "definition": "The fact or phenomenon of light, radio waves, etc. being deflected in passing obliquely through the interface between one medium and another.",
+      "subject": "Physics",
+      "chapter": "Optics"
+    },
+    {
+      "word": "Thermodynamics",
+      "definition": "The branch of physical science that deals with the relations between heat and other forms of energy.",
+      "subject": "Physics",
+      "chapter": "Heat and Temperature"
+    },
+    {
+      "word": "Vector",
+      "definition": "A quantity having direction as well as magnitude, especially as determining the position of one point in space relative to another.",
+      "subject": "Physics",
+      "chapter": "Vectors and Scalars"
+    },
+    {
+      "word": "Momentum",
+      "definition": "The quantity of motion of a moving body, measured as a product of its mass and velocity.",
+      "subject": "Physics",
+      "chapter": "Dynamics"
+    },
+    {
+      "word": "Inertia",
+      "definition": "A property of matter by which it continues in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external force.",
+      "subject": "Physics",
+      "chapter": "Newton's Laws"
+    },
+    {
+      "word": "Gravity",
+      "definition": "The force that attracts a body toward the center of the earth, or toward any other physical body having mass.",
+      "subject": "Physics",
+      "chapter": "Forces"
+    },
+    {
+      "word": "Current",
+      "definition": "A flow of electricity which results from the ordered directional movement of electrically charged particles.",
+      "subject": "Physics",
+      "chapter": "Electricity"
+    },
+    {
+      "word": "Amplitude",
+      "definition": "The maximum extent of a vibration or oscillation, measured from the position of equilibrium.",
+      "subject": "Physics",
+      "chapter": "Waves"
+    },
+    {
+      "word": "Friction",
+      "definition": "The resistance that one surface or object encounters when moving over another.",
+      "subject": "Physics",
+      "chapter": "Forces"
+    },
+    {
+      "word": "Covalent Bond",
+      "definition": "A chemical bond that involves the sharing of electron pairs between atoms.",
+      "subject": "Chemistry",
+      "chapter": "Chemical Bonding"
+    },
+    {
+      "word": "Stoichiometry",
+      "definition": "The relationship between the relative quantities of substances taking part in a reaction or forming a compound.",
+      "subject": "Chemistry",
+      "chapter": "Chemical Reactions"
+    },
+    {
+      "word": "pH Scale",
+      "definition": "A logarithmic scale used to specify the acidity or basicity of an aqueous solution.",
+      "subject": "Chemistry",
+      "chapter": "Acids and Bases"
+    },
+    {
+      "word": "Isotope",
+      "definition": "Each of two or more forms of the same element that contain equal numbers of protons but different numbers of neutrons.",
+      "subject": "Chemistry",
+      "chapter": "Atomic Structure"
+    },
+    {
+      "word": "Catalyst",
+      "definition": "A substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.",
+      "subject": "Chemistry",
+      "chapter": "Kinetics"
+    },
+    {
+      "word": "Mole",
+      "definition": "The SI unit of amount of substance, equal to the quantity containing as many elementary entities as there are atoms in 0.012 kg of carbon-12.",
+      "subject": "Chemistry",
+      "chapter": "Measurement"
+    },
+    {
+      "word": "Oxidation",
+      "definition": "The process or result of oxidizing or being oxidized; loss of electrons during a reaction.",
+      "subject": "Chemistry",
+      "chapter": "Redox Reactions"
+    },
+    {
+      "word": "Solution",
+      "definition": "A liquid mixture in which the minor component (the solute) is uniformly distributed within the major component (the solvent).",
+      "subject": "Chemistry",
+      "chapter": "Mixtures"
+    },
+    {
+      "word": "Valence Electron",
+      "definition": "An electron in the outer shell of an atom which can participate in the formation of a chemical bond.",
+      "subject": "Chemistry",
+      "chapter": "Atomic Structure"
+    },
+    {
+      "word": "Exothermic",
+      "definition": "A reaction or process accompanied by the release of heat.",
+      "subject": "Chemistry",
+      "chapter": "Thermodynamics"
+    },
+    {
+      "word": "Polymer",
+      "definition": "A substance that has a molecular structure consisting chiefly or entirely of a large number of similar units bonded together.",
+      "subject": "Chemistry",
+      "chapter": "Organic Chemistry"
+    },
+    {
+      "word": "Renaissance",
+      "definition": "The revival of art and literature under the influence of classical models in the 14th–16th centuries.",
+      "subject": "History",
+      "chapter": "Early Modern Europe"
+    },
+    {
+      "word": "Feudalism",
+      "definition": "The dominant social system in medieval Europe, in which the nobility held lands from the Crown in exchange for military service.",
+      "subject": "History",
+      "chapter": "Middle Ages"
+    },
+    {
+      "word": "Industrial Revolution",
+      "definition": "The rapid development of industry that occurred in Britain in the late 18th and 19th centuries, brought about by the introduction of machinery.",
+      "subject": "History",
+      "chapter": "Modern History"
+    },
+    {
+      "word": "Cold War",
+      "definition": "The state of political hostility that existed between the Soviet bloc countries and the US-led Western powers from 1945 to 1990.",
+      "subject": "History",
+      "chapter": "20th Century World"
+    },
+    {
+      "word": "Imperialism",
+      "definition": "A policy of extending a country's power and influence through diplomacy or military force.",
+      "subject": "History",
+      "chapter": "Age of Empire"
+    },
+    {
+      "word": "Magna Carta",
+      "definition": "A charter of liberties to which the English barons forced King John to give his assent in June 1215.",
+      "subject": "History",
+      "chapter": "Medieval England"
+    },
+    {
+      "word": "Apartheid",
+      "definition": "A policy or system of segregation or discrimination on grounds of race, formerly in force in South Africa.",
+      "subject": "History",
+      "chapter": "African History"
+    },
+    {
+      "word": "Silk Road",
+      "definition": "A network of trade routes connecting the East and West, central to the economic, cultural, political, and religious interactions between these regions.",
+      "subject": "History",
+      "chapter": "Ancient Trade"
+    },
+    {
+      "word": "Treaty of Versailles",
+      "definition": "The treaty signed in 1919 that brought a formal end to World War I.",
+      "subject": "History",
+      "chapter": "World War I"
+    },
+    {
+      "word": "Suffrage",
+      "definition": "The right to vote in political elections.",
+      "subject": "History",
+      "chapter": "Political Rights"
+    },
+    {
+      "word": "Reformation",
+      "definition": "A 16th-century movement for the reform of abuses in the Roman Catholic Church ending in the establishment of the Reformed and Protestant Churches.",
+      "subject": "History",
+      "chapter": "Early Modern Europe"
+    },
+    {
+      "word": "Plate Tectonics",
+      "definition": "A theory explaining the structure of the earth's crust and many associated phenomena as resulting from the interaction of rigid lithospheric plates.",
+      "subject": "Geography",
+      "chapter": "Physical Geography"
+    },
+    {
+      "word": "Urbanization",
+      "definition": "The process of making an area more urban, involving the migration of populations from rural to urban areas.",
+      "subject": "Geography",
+      "chapter": "Human Geography"
+    },
+    {
+      "word": "Latitude",
+      "definition": "The angular distance of a place north or south of the earth's equator.",
+      "subject": "Geography",
+      "chapter": "Mapping"
+    },
+    {
+      "word": "Biome",
+      "definition": "A large naturally occurring community of flora and fauna occupying a major habitat, e.g., forest or tundra.",
+      "subject": "Geography",
+      "chapter": "Environmental Geography"
+    },
+    {
+      "word": "Demography",
+      "definition": "The statistical study of populations, especially human beings.",
+      "subject": "Geography",
+      "chapter": "Population Studies"
+    },
+    {
+      "word": "Erosion",
+      "definition": "The process of eroding or being eroded by wind, water, or other natural agents.",
+      "subject": "Geography",
+      "chapter": "Landforms"
+    },
+    {
+      "word": "Monsoon",
+      "definition": "A seasonal prevailing wind in the region of South and Southeast Asia, bringing rain.",
+      "subject": "Geography",
+      "chapter": "Climate"
+    },
+    {
+      "word": "Globalization",
+      "definition": "The process by which businesses or other organizations develop international influence or start operating on an international scale.",
+      "subject": "Geography",
+      "chapter": "Economic Geography"
+    },
+    {
+      "word": "Cartography",
+      "definition": "The science or practice of drawing maps.",
+      "subject": "Geography",
+      "chapter": "Mapping"
+    },
+    {
+      "word": "Equinox",
+      "definition": "The time or date (twice each year) at which the sun crosses the celestial equator, when day and night are of equal length.",
+      "subject": "Geography",
+      "chapter": "Earth Systems"
+    },
+    {
+      "word": "Tundra",
+      "definition": "A vast, flat, treeless Arctic region of Europe, Asia, and North America in which the subsoil is permanently frozen.",
+      "subject": "Geography",
+      "chapter": "Biomes"
+    },
+    {
+      "word": "Supply and Demand",
+      "definition": "The amount of a commodity, product, or service available and the desire of buyers for it, considered as factors regulating its price.",
+      "subject": "Economics",
+      "chapter": "Microeconomics"
+    },
+    {
+      "word": "Inflation",
+      "definition": "A general increase in prices and fall in the purchasing value of money.",
+      "subject": "Economics",
+      "chapter": "Macroeconomics"
+    },
+    {
+      "word": "GDP",
+      "definition": "Gross Domestic Product: the total value of goods produced and services provided in a country during one year.",
+      "subject": "Economics",
+      "chapter": "National Income"
+    },
+    {
+      "word": "Opportunity Cost",
+      "definition": "The loss of potential gain from other alternatives when one alternative is chosen.",
+      "subject": "Economics",
+      "chapter": "Basic Concepts"
+    },
+    {
+      "word": "Monopoly",
+      "definition": "The exclusive possession or control of the supply of or trade in a commodity or service.",
+      "subject": "Economics",
+      "chapter": "Market Structures"
+    },
+    {
+      "word": "Fiscal Policy",
+      "definition": "The use of government spending and tax policies to influence economic conditions.",
+      "subject": "Economics",
+      "chapter": "Government Policy"
+    },
+    {
+      "word": "Liquidity",
+      "definition": "The availability of liquid assets to a market or company; the ease with which an asset can be converted into ready cash.",
+      "subject": "Economics",
+      "chapter": "Finance"
+    },
+    {
+      "word": "Tariff",
+      "definition": "A tax or duty to be paid on a particular class of imports or exports.",
+      "subject": "Economics",
+      "chapter": "International Trade"
+    },
+    {
+      "word": "Scarcity",
+      "definition": "The state of being scarce or in short supply; shortage.",
+      "subject": "Economics",
+      "chapter": "Basic Concepts"
+    },
+    {
+      "word": "Interest Rate",
+      "definition": "The proportion of a loan that is charged as interest to the borrower, typically expressed as an annual percentage of the loan outstanding.",
+      "subject": "Economics",
+      "chapter": "Finance"
+    },
+    {
+      "word": "Recession",
+      "definition": "A period of temporary economic decline during which trade and industrial activity are reduced.",
+      "subject": "Economics",
+      "chapter": "Business Cycles"
+    },
+    {
+      "word": "Pythagorean Theorem",
+      "definition": "A fundamental relation in Euclidean geometry among the three sides of a right triangle: a² + b² = c².",
+      "subject": "Mathematics",
+      "chapter": "Geometry"
+    },
+    {
+      "word": "Quadratic Equation",
+      "definition": "Any equation that can be rearranged in standard form as ax² + bx + c = 0.",
+      "subject": "Mathematics",
+      "chapter": "Algebra"
+    },
+    {
+      "word": "Derivative",
+      "definition": "The instantaneous rate of change of a function with respect to one of its variables.",
+      "subject": "Mathematics",
+      "chapter": "Calculus"
+    },
+    {
+      "word": "Integer",
+      "definition": "A whole number; a number that is not a fraction.",
+      "subject": "Mathematics",
+      "chapter": "Number Theory"
+    },
+    {
+      "word": "Mean",
+      "definition": "The average of a set of numbers, calculated by adding them together and dividing by the number of items in the set.",
+      "subject": "Mathematics",
+      "chapter": "Statistics"
+    },
+    {
+      "word": "Polynomial",
+      "definition": "An expression of more than two algebraic terms, especially the sum of several terms that contain different powers of the same variable(s).",
+      "subject": "Mathematics",
+      "chapter": "Algebra"
+    },
+    {
+      "word": "Slope",
+      "definition": "A number that describes both the direction and the steepness of the line.",
+      "subject": "Mathematics",
+      "chapter": "Coordinate Geometry"
+    },
+    {
+      "word": "Logarithm",
+      "definition": "A quantity representing the power to which a fixed number (the base) must be raised to produce a given number.",
+      "subject": "Mathematics",
+      "chapter": "Functions"
+    },
+    {
+      "word": "Isosceles Triangle",
+      "definition": "A triangle that has at least two sides of equal length.",
+      "subject": "Mathematics",
+      "chapter": "Geometry"
+    },
+    {
+      "word": "Probability",
+      "definition": "The extent to which an event is likely to occur, measured by the ratio of the favorable cases to the whole number of cases possible.",
+      "subject": "Mathematics",
+      "chapter": "Statistics"
+    },
+    {
+      "word": "Variable",
+      "definition": "A symbol (usually a letter) standing in for an unknown numerical value in an equation.",
+      "subject": "Mathematics",
+      "chapter": "Algebra"
+    },
+    {
+      "word": "Metaphor",
+      "definition": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
+      "subject": "English",
+      "chapter": "Literary Devices"
+    },
+    {
+      "word": "Simile",
+      "definition": "A figure of speech involving the comparison of one thing with another thing of a different kind, used to make a description more emphatic or vivid (e.g., as brave as a lion).",
+      "subject": "English",
+      "chapter": "Literary Devices"
+    },
+    {
+      "word": "Hyperbole",
+      "definition": "Exaggerated statements or claims not meant to be taken literally.",
+      "subject": "English",
+      "chapter": "Rhetoric"
+    },
+    {
+      "word": "Alliteration",
+      "definition": "The occurrence of the same letter or sound at the beginning of adjacent or closely connected words.",
+      "subject": "English",
+      "chapter": "Poetry"
+    },
+    {
+      "word": "Irony",
+      "definition": "The expression of one's meaning by using language that normally signifies the opposite, typically for humorous or emphatic effect.",
+      "subject": "English",
+      "chapter": "Literary Devices"
+    },
+    {
+      "word": "Protagonist",
+      "definition": "The leading character or one of the major characters in a drama, movie, novel, or other fictional text.",
+      "subject": "English",
+      "chapter": "Narrative Structure"
+    },
+    {
+      "word": "Theme",
+      "definition": "An idea that recurs in or pervades a work of art or literature.",
+      "subject": "English",
+      "chapter": "Literary Analysis"
+    },
+    {
+      "word": "Onomatopoeia",
+      "definition": "The formation of a word from a sound associated with what is named (e.g., cuckoo, sizzle).",
+      "subject": "English",
+      "chapter": "Poetry"
+    },
+    {
+      "word": "Syntax",
+      "definition": "The arrangement of words and phrases to create well-formed sentences in a language.",
+      "subject": "English",
+      "chapter": "Grammar"
+    },
+    {
+      "word": "Personification",
+      "definition": "The attribution of a personal nature or human characteristics to something nonhuman.",
+      "subject": "English",
+      "chapter": "Literary Devices"
+    },
+    {
+      "word": "Oxymoron",
+      "definition": "A figure of speech in which apparently contradictory terms appear in conjunction.",
+      "subject": "English",
+      "chapter": "Rhetoric"
+    },
+    {
+      "word": "Ephemeral",
+      "definition": "Lasting for a very short time.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Superfluous",
+      "definition": "Unnecessary, especially through being more than enough.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Benevolent",
+      "definition": "Well meaning and kindly.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Substantiate",
+      "definition": "Provide evidence to support or prove the truth of.",
+      "subject": "SAT",
+      "chapter": "Evidence-Based Reading"
+    },
+    {
+      "word": "Tenacious",
+      "definition": "Tending to keep a firm hold of something; clinging or adhering closely.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Anachronism",
+      "definition": "A thing belonging or appropriate to a period other than that in which it exists, especially a thing that is conspicuously old-fashioned.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Prudent",
+      "definition": "Acting with or showing care and thought for the future.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Reconcile",
+      "definition": "Restore friendly relations between.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Perfidious",
+      "definition": "Deceitful and untrustworthy.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Mundane",
+      "definition": "Lacking interest or excitement; dull.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Inevitable",
+      "definition": "Certain to happen; unavoidable.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    },
+    {
+      "word": "Longevity",
+      "definition": "Long life; long existence or service.",
+      "subject": "SAT",
+      "chapter": "Vocabulary"
+    }
   ]
 }
