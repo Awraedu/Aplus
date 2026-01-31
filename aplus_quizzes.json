@@ -1,23 +1,515 @@
 {
-  "version": 1,
+  "version": 2,
   "data": [
     {
       "type": "MC",
-      "questionText": "What is the powerhouse of the cell?",
+      "questionText": "Which organelle is known as the powerhouse of the cell because it generates most of the cell's ATP?",
       "subject": "Biology",
-      "chapter": "1",
-      "imageUrl": null,
-      "explanation": "Mitochondria generate ATP.",
-      "options": ["Nucleus", "Ribosome", "Mitochondrion", "Wall"],
-      "correctAnswer": "2" 
+      "chapter": "Chapter 1: Cell Structure",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Animal_cell_structure_en.svg/500px-Animal_cell_structure_en.svg.png",
+      "explanation": "Mitochondria are membrane-bound cell organelles that generate most of the chemical energy needed to power the cell's biochemical reactions.",
+      "options": ["Nucleus", "Mitochondrion", "Ribosome", "Golgi Apparatus"],
+      "correctAnswer": "1"
     },
     {
       "type": "TF",
-      "questionText": "Fire is hot.",
+      "questionText": "Sound waves can travel through a vacuum (empty space).",
       "subject": "Physics",
-      "chapter": "1",
-      "explanation": "Combustion releases heat.",
+      "chapter": "Chapter 3: Waves",
+      "imageUrl": null,
+      "explanation": "Sound is a mechanical wave and needs a medium (like air, water, or solids) to travel. It cannot travel through a vacuum where there are no particles to vibrate.",
+      "correctAnswer": "false"
+    },
+    {
+      "type": "FB",
+      "questionText": "The process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll is called ____.",
+      "subject": "Biology",
+      "chapter": "Chapter 4: Plant Physiology",
+      "imageUrl": null,
+      "explanation": "Photosynthesis is vital for life on Earth as it transforms light energy into chemical energy stored in glucose.",
+      "correctAnswer": "Photosynthesis"
+    },
+    {
+      "type": "MATCH",
+      "questionText": "Match the following Countries to their respective Capital Cities.",
+      "subject": "Geography",
+      "chapter": "General Knowledge",
+      "imageUrl": null,
+      "explanation": "Addis Ababa is the capital of Ethiopia, Nairobi is the capital of Kenya, and Paris is the capital of France.",
+      "prompts": ["Ethiopia", "Kenya", "France"],
+      "options": ["Nairobi", "Paris", "Addis Ababa"],
+      "matchMap": {
+        "0": 2,
+        "1": 0,
+        "2": 1
+      }
+    },
+    {
+      "type": "MC",
+      "questionText": "What is the value of 'x' in the equation 2x + 10 = 20?",
+      "subject": "Mathematics",
+      "chapter": "Algebra",
+      "imageUrl": null,
+      "explanation": "Subtract 10 from both sides: 2x = 10. Then divide by 2: x = 5.",
+      "options": ["2", "5", "10", "15"],
+      "correctAnswer": "1"
+    },
+    {
+      "type": "MC",
+      "questionText": "Which element has the atomic number 1?",
+      "subject": "Chemistry",
+      "chapter": "Periodic Table",
+      "imageUrl": null,
+      "explanation": "Hydrogen is the first element on the periodic table and has one proton in its nucleus.",
+      "options": ["Helium", "Lithium", "Oxygen", "Hydrogen"],
+      "correctAnswer": "3"
+    },
+    {
+      "type": "TF",
+      "questionText": "The Nile River is the longest river in the world.",
+      "subject": "Geography",
+      "chapter": "African Geography",
+      "imageUrl": null,
+      "explanation": "The Nile is widely considered the longest river, stretching over 6,600 kilometers.",
       "correctAnswer": "true"
+    },
+    {
+      "type": "FB",
+      "questionText": "The law of supply states that as price increases, the quantity supplied ____.",
+      "subject": "Economics",
+      "chapter": "Supply and Demand",
+      "imageUrl": null,
+      "explanation": "According to the law of supply, producers are willing to offer more of a product at a higher price.",
+      "correctAnswer": "Increases"
+    },
+    {
+      "type": "MC",
+      "questionText": "Who was the first President of the United States?",
+      "subject": "History",
+      "chapter": "American Revolution",
+      "imageUrl": null,
+      "explanation": "George Washington served as the first president from 1789 to 1797.",
+      "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "MATCH",
+      "questionText": "Match the Newton's Laws of Motion to their descriptions.",
+      "subject": "Physics",
+      "chapter": "Mechanics",
+      "imageUrl": null,
+      "explanation": "1st Law: Inertia; 2nd Law: F=ma; 3rd Law: Action/Reaction.",
+      "prompts": ["First Law", "Second Law", "Third Law"],
+      "options": ["F = ma", "Action and Reaction", "Law of Inertia"],
+      "matchMap": {
+        "0": 2,
+        "1": 0,
+        "2": 1
+      }
+    },
+    {
+      "type": "MC",
+      "questionText": "In the sentence 'She sings beautifully', what part of speech is 'beautifully'?",
+      "subject": "English",
+      "chapter": "Parts of Speech",
+      "imageUrl": null,
+      "explanation": "Adverbs modify verbs, adjectives, or other adverbs. 'Beautifully' modifies the verb 'sings'.",
+      "options": ["Adjective", "Noun", "Verb", "Adverb"],
+      "correctAnswer": "3"
+    },
+    {
+      "type": "FB",
+      "questionText": "What is the square root of 144?",
+      "subject": "Mathematics",
+      "chapter": "Arithmetic",
+      "imageUrl": null,
+      "explanation": "12 multiplied by 12 equals 144.",
+      "correctAnswer": "12"
+    },
+    {
+      "type": "MC",
+      "questionText": "Which type of bond involves the sharing of electron pairs between atoms?",
+      "subject": "Chemistry",
+      "chapter": "Chemical Bonding",
+      "imageUrl": null,
+      "explanation": "Covalent bonds are formed when atoms share electrons to achieve stability.",
+      "options": ["Ionic Bond", "Covalent Bond", "Hydrogen Bond", "Metallic Bond"],
+      "correctAnswer": "1"
+    },
+    {
+      "type": "TF",
+      "questionText": "An economy with no government intervention is called a command economy.",
+      "subject": "Economics",
+      "chapter": "Economic Systems",
+      "imageUrl": null,
+      "explanation": "An economy with no government intervention is called a market economy or laissez-faire economy.",
+      "correctAnswer": "false"
+    },
+    {
+      "type": "MC",
+      "questionText": "The SAT Math section heavily emphasizes which area of mathematics?",
+      "subject": "SAT",
+      "chapter": "Exam Structure",
+      "imageUrl": null,
+      "explanation": "Algebra (Heart of Algebra) is a primary focus of the SAT Math test.",
+      "options": ["Calculus", "Algebra", "Geometry", "Statistics"],
+      "correctAnswer": "1"
+    },
+    {
+      "type": "FB",
+      "questionText": "The Treaty of ____ ended World War I.",
+      "subject": "History",
+      "chapter": "World War I",
+      "imageUrl": null,
+      "explanation": "The Treaty of Versailles was signed in 1919 to formally end the state of war.",
+      "correctAnswer": "Versailles"
+    },
+    {
+      "type": "MC",
+      "questionText": "What is the PH of pure water at room temperature?",
+      "subject": "Chemistry",
+      "chapter": "Acids and Bases",
+      "imageUrl": null,
+      "explanation": "Pure water is neutral, meaning its PH level is exactly 7.",
+      "options": ["1", "5", "7", "14"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "TF",
+      "questionText": "Viruses are considered living organisms by all biologists.",
+      "subject": "Biology",
+      "chapter": "Microbiology",
+      "imageUrl": null,
+      "explanation": "Viruses are often considered at the edge of life because they cannot reproduce without a host cell.",
+      "correctAnswer": "false"
+    },
+    {
+      "type": "MC",
+      "questionText": "Which gas do plants primarily absorb during photosynthesis?",
+      "subject": "Biology",
+      "chapter": "Plant Biology",
+      "imageUrl": null,
+      "explanation": "Plants take in carbon dioxide and release oxygen during the process of photosynthesis.",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "MATCH",
+      "questionText": "Match the Mathematical terms to their definitions.",
+      "subject": "Mathematics",
+      "chapter": "Statistics",
+      "imageUrl": null,
+      "explanation": "Mean is average, Median is middle, Mode is most frequent.",
+      "prompts": ["Mean", "Median", "Mode"],
+      "options": ["Middle value", "Most frequent value", "Average value"],
+      "matchMap": {
+        "0": 2,
+        "1": 0,
+        "2": 1
+      }
+    },
+    {
+      "type": "MC",
+      "questionText": "What is the SI unit of force?",
+      "subject": "Physics",
+      "chapter": "Dynamics",
+      "imageUrl": null,
+      "explanation": "The Newton (N) is the standard unit of force in the International System of Units.",
+      "options": ["Joule", "Watt", "Newton", "Pascal"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "FB",
+      "questionText": "The largest continent by land area is ____.",
+      "subject": "Geography",
+      "chapter": "World Geography",
+      "imageUrl": null,
+      "explanation": "Asia is the largest continent, covering about 30% of Earth's total land area.",
+      "correctAnswer": "Asia"
+    },
+    {
+      "type": "MC",
+      "questionText": "What is the synonym of 'Abundant'?",
+      "subject": "English",
+      "chapter": "Vocabulary",
+      "imageUrl": null,
+      "explanation": "Abundant means existing or available in large quantities; plentiful.",
+      "options": ["Scarce", "Plentiful", "Rare", "Limited"],
+      "correctAnswer": "1"
+    },
+    {
+      "type": "TF",
+      "questionText": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+      "subject": "Mathematics",
+      "chapter": "Geometry",
+      "imageUrl": null,
+      "explanation": "This is the Pythagorean theorem ($a^2 + b^2 = c^2$).",
+      "correctAnswer": "true"
+    },
+    {
+      "type": "MC",
+      "questionText": "Which historical period followed the Middle Ages in Europe?",
+      "subject": "History",
+      "chapter": "European History",
+      "imageUrl": null,
+      "explanation": "The Renaissance was a period of cultural and artistic rebirth following the Middle Ages.",
+      "options": ["Iron Age", "Industrial Revolution", "Renaissance", "Victorian Era"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "FB",
+      "questionText": "The formula for the area of a circle is $\\pi$ times the ____ squared.",
+      "subject": "Mathematics",
+      "chapter": "Geometry",
+      "imageUrl": null,
+      "explanation": "The area of a circle is $A = \\pi r^2$.",
+      "correctAnswer": "Radius"
+    },
+    {
+      "type": "MC",
+      "questionText": "What does GDP stand for in Economics?",
+      "subject": "Economics",
+      "chapter": "Macroeconomics",
+      "imageUrl": null,
+      "explanation": "Gross Domestic Product is the total value of goods and services produced in a country.",
+      "options": ["General Domestic Price", "Gross Domestic Product", "Global Development Plan", "Government Debt Percentage"],
+      "correctAnswer": "1"
+    },
+    {
+      "type": "TF",
+      "questionText": "Electrons have a positive charge.",
+      "subject": "Physics",
+      "chapter": "Electricity",
+      "imageUrl": null,
+      "explanation": "Electrons are subatomic particles with a negative charge.",
+      "correctAnswer": "false"
+    },
+    {
+      "type": "MC",
+      "questionText": "Which SAT section tests your ability to improve the clarity and flow of a passage?",
+      "subject": "SAT",
+      "chapter": "Writing",
+      "imageUrl": null,
+      "explanation": "The Writing and Language section focuses on editing and revising passages.",
+      "options": ["Reading", "Math", "Writing and Language", "Essay"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "MATCH",
+      "questionText": "Match the Chemical formulas to their common names.",
+      "subject": "Chemistry",
+      "chapter": "Nomenclature",
+      "imageUrl": null,
+      "explanation": "NaCl is Table Salt, H2O is Water, CO2 is Carbon Dioxide.",
+      "prompts": ["NaCl", "H2O", "CO2"],
+      "options": ["Water", "Carbon Dioxide", "Table Salt"],
+      "matchMap": {
+        "0": 2,
+        "1": 0,
+        "2": 1
+      }
+    },
+    {
+      "type": "MC",
+      "questionText": "Which layer of the atmosphere contains the ozone layer?",
+      "subject": "Geography",
+      "chapter": "Climatology",
+      "imageUrl": null,
+      "explanation": "The stratosphere sits above the troposphere and contains the protective ozone layer.",
+      "options": ["Troposphere", "Mesosphere", "Exosphere", "Stratosphere"],
+      "correctAnswer": "3"
+    },
+    {
+      "type": "FB",
+      "questionText": "The movement of water across a semi-permeable membrane from high to low concentration is ____.",
+      "subject": "Biology",
+      "chapter": "Cell Transport",
+      "imageUrl": null,
+      "explanation": "Osmosis is a specific type of diffusion involving water molecules.",
+      "correctAnswer": "Osmosis"
+    },
+    {
+      "type": "MC",
+      "questionText": "In Economics, 'Opportunity Cost' refers to:",
+      "subject": "Economics",
+      "chapter": "Basic Concepts",
+      "imageUrl": null,
+      "explanation": "Opportunity cost is the value of the next best alternative foregone when making a choice.",
+      "options": ["Total production cost", "The price of a good", "The value of the next best alternative", "Marketing expenses"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "TF",
+      "questionText": "The industrial revolution began in France.",
+      "subject": "History",
+      "chapter": "Industrialization",
+      "imageUrl": null,
+      "explanation": "The Industrial Revolution began in Great Britain in the late 18th century.",
+      "correctAnswer": "false"
+    },
+    {
+      "type": "MC",
+      "questionText": "What is the primary function of white blood cells?",
+      "subject": "Biology",
+      "chapter": "Human Anatomy",
+      "imageUrl": null,
+      "explanation": "White blood cells are part of the immune system and help fight infections.",
+      "options": ["Transport oxygen", "Clot blood", "Fight infection", "Regulate temperature"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "FB",
+      "questionText": "A triangle with all three sides of equal length is called an ____ triangle.",
+      "subject": "Mathematics",
+      "chapter": "Geometry",
+      "imageUrl": null,
+      "explanation": "An equilateral triangle has three equal sides and three equal angles (60 degrees).",
+      "correctAnswer": "Equilateral"
+    },
+    {
+      "type": "MC",
+      "questionText": "Who developed the theory of General Relativity?",
+      "subject": "Physics",
+      "chapter": "Modern Physics",
+      "imageUrl": null,
+      "explanation": "Albert Einstein published the theory of general relativity in 1915.",
+      "options": ["Isaac Newton", "Niels Bohr", "Albert Einstein", "Marie Curie"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "MATCH",
+      "questionText": "Match the literary devices to their examples.",
+      "subject": "English",
+      "chapter": "Literature",
+      "imageUrl": null,
+      "explanation": "Simile uses 'like/as', Metaphor is a direct comparison, Personification gives human traits to objects.",
+      "prompts": ["Simile", "Metaphor", "Personification"],
+      "options": ["The wind whispered", "Life is a journey", "Brave as a lion"],
+      "matchMap": {
+        "0": 2,
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "type": "MC",
+      "questionText": "What is the value of $3^4$?",
+      "subject": "Mathematics",
+      "chapter": "Exponents",
+      "imageUrl": null,
+      "explanation": "$3 \\times 3 \\times 3 \\times 3 = 81$.",
+      "options": ["12", "27", "81", "64"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "TF",
+      "questionText": "A shortage occurs when the quantity demanded is greater than the quantity supplied.",
+      "subject": "Economics",
+      "chapter": "Market Equilibrium",
+      "imageUrl": null,
+      "explanation": "Shortages happen when prices are below equilibrium, causing demand to exceed supply.",
+      "correctAnswer": "true"
+    },
+    {
+      "type": "MC",
+      "questionText": "Which organ in the human body is primarily responsible for filtering blood?",
+      "subject": "Biology",
+      "chapter": "Excretory System",
+      "imageUrl": null,
+      "explanation": "The kidneys filter waste products from the blood to form urine.",
+      "options": ["Heart", "Lungs", "Kidneys", "Liver"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "FB",
+      "questionText": "The smallest unit of an element that retains its properties is the ____.",
+      "subject": "Chemistry",
+      "chapter": "Atomic Structure",
+      "imageUrl": null,
+      "explanation": "An atom is the basic building block of matter.",
+      "correctAnswer": "Atom"
+    },
+    {
+      "type": "MC",
+      "questionText": "Which ancient civilization built the pyramids of Giza?",
+      "subject": "History",
+      "chapter": "Ancient Civilizations",
+      "imageUrl": null,
+      "explanation": "The ancient Egyptians built the pyramids as tombs for their pharaohs.",
+      "options": ["Romans", "Greeks", "Egyptians", "Mayans"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "TF",
+      "questionText": "The SAT allows the use of a calculator on all Math sections.",
+      "subject": "SAT",
+      "chapter": "Testing Rules",
+      "imageUrl": null,
+      "explanation": "The current Digital SAT allows a calculator for the entire Math section.",
+      "correctAnswer": "true"
+    },
+    {
+      "type": "MC",
+      "questionText": "What is the boiling point of water in Celsius?",
+      "subject": "Physics",
+      "chapter": "Thermodynamics",
+      "imageUrl": null,
+      "explanation": "Under standard atmospheric pressure, water boils at 100 degrees Celsius.",
+      "options": ["0", "50", "100", "212"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "FB",
+      "questionText": "The largest desert in the world is the ____.",
+      "subject": "Geography",
+      "chapter": "Landforms",
+      "imageUrl": null,
+      "explanation": "While the Sahara is the largest hot desert, Antarctica is technically the largest desert overall (polar desert).",
+      "correctAnswer": "Antarctica"
+    },
+    {
+      "type": "MC",
+      "questionText": "Which word is an antonym for 'Giant'?",
+      "subject": "English",
+      "chapter": "Vocabulary",
+      "imageUrl": null,
+      "explanation": "Tiny is the opposite of giant.",
+      "options": ["Large", "Huge", "Tiny", "Massive"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "TF",
+      "questionText": "Mercury is the hottest planet in our solar system.",
+      "subject": "Geography",
+      "chapter": "Astronomy",
+      "imageUrl": null,
+      "explanation": "Venus is the hottest planet due to its thick atmosphere trapping heat, even though Mercury is closer to the sun.",
+      "correctAnswer": "false"
+    },
+    {
+      "type": "MC",
+      "questionText": "In Chemistry, what is the 'mole' used to measure?",
+      "subject": "Chemistry",
+      "chapter": "Stoichiometry",
+      "imageUrl": null,
+      "explanation": "The mole is the unit for the amount of substance.",
+      "options": ["Weight", "Volume", "Amount of substance", "Density"],
+      "correctAnswer": "2"
+    },
+    {
+      "type": "MATCH",
+      "questionText": "Match the Historical Leaders to their Countries.",
+      "subject": "History",
+      "chapter": "Modern History",
+      "imageUrl": null,
+      "explanation": "Nelson Mandela led South Africa, Napoleon led France, Winston Churchill led the UK.",
+      "prompts": ["Nelson Mandela", "Napoleon Bonaparte", "Winston Churchill"],
+      "options": ["France", "United Kingdom", "South Africa"],
+      "matchMap": {
+        "0": 2,
+        "1": 0,
+        "2": 1
+      }
     }
   ]
 }
